@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+background-color: rgb(189, 142, 156);
+background-position: top center;
+}
+
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 130px;
+    background-color: rgb(116, 36, 102);
+   
+}
+
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    background-color: rgb(226, 67, 231);
+    border-bottom: 1px solid white;
+}
+
+.slide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 200px;
+    background-image: url("../Img/imagenMenu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%120%;
+}
+.slide div{
+    width: 300px;
+    height: auto;
+    color: rgb(226, 195, 238);
+    font-family: amsterdam;
+    text-shadow: 10px 4px 5px rgb(22, 15, 15);
+    font-size: 50px;
+    position:relative;
+    top: 26px;
+    left: 35%;
+    background-size: cover;
+}
+.menu1{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 750px;
+    background-color: rgb(116, 36, 102);
+}
+
+.pasteleria{
+    color: blanchedalmond;
+    font-family: apple;
+    text-shadow: 7px 4px 5px white;
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.marisol{
+    color: blanchedalmond;
+    font-family: apple;
+    text-shadow: 7px 4px 5px white;
+    font-size: 50px;
+    position: absolute;
+    top:40px;
+    left:80px;
+}
+
+nav ul{
+    float: left;
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin: 17px 10px;
+    
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: roboto;
+}
+li a.active, li a:hover{
+    background: #821191;
+    transition: .5s;
+}
+header ul{
+    position: absolute;
+    top: 0px;
+    left: 60%;
+}
+header ul img{
+    float: left;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    
+}
+
+
+
+#instruccion{
+    font-size: 15px;
+    background-color: thistle;
+ 
+}
+
+
+
+
+#pasteles{
+    width: 200px;
+    left: 200px;
+    color: blanchedalmond;
+    font-family: apple;
+    text-shadow: 7px 4px 5px white;
+    font-size: 40px;
+    position:relative;
+    text-align: center;
+    left: 40%;
+    
+
+}
+
+.listaSabores{
+
+    width: 400px;
+    height: 400px;
+    
+    position: relative;
+    left:60px;
+    top: 10px;
+}
+.listaAdornos{
+    width: 400px;
+    height: 400px;
+   
+    position: relative;
+    left: 540px;
+    top: -390px;
+}
+#imgSabores{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}

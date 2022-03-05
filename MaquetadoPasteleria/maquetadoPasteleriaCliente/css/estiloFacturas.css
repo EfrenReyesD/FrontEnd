@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+background-color: rgb(189, 142, 156);
+background-position: top center;
+}
+
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 130px;
+    background-color: rgb(116, 36, 102);
+}
+
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    background-color: rgb(226, 67, 231);
+    border-bottom: 1px solid white;
+}
+
+
+
+.menu1{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(116, 36, 102);;
+}
+.menu1 .pedidos{
+    height:auto;
+    width: 900px;
+    background-color: rgba(165, 154, 162, 0.267);
+    position: inherit;
+    left: 5%;
+    
+}
+.pasteleria{
+    color: blanchedalmond;
+    font-family: apple;
+    text-shadow: 7px 4px 5px white;
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.marisol{
+    color: blanchedalmond;
+    font-family: apple;
+    text-shadow: 7px 4px 5px white;
+    font-size: 50px;
+    position: absolute;
+    top:40px;
+    left:80px;
+}
+
+nav ul{
+    float: left;
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin: 17px 10px;
+    
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: roboto;
+}
+li a.active, li a:hover{
+    background: #821191;
+    transition: .5s;
+}
+header ul{
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    
+}
+header ul img{
+    float: left;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    
+}
