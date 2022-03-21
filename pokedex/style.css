@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(245, 197, 141);
+}
+form {
+    width: 200px;
+    margin: 30px auto;
+   
+}
+form input{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+}
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.contenedor{
+ 
+    width: 400px;
+    height: 400px;
+    text-align: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 99;
+   
+}
+.poke-card {
+   
+    position: relative;
+   height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 500px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color:#ebedee;
+    border: 1px solid black;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+    
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+  
+    
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+   
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
